@@ -5,8 +5,11 @@ body {background-color: black;
 h1 {color: tomato;
 }
 
-h2 {color: silver;
+h2 {color: aqua;
 }
 
-p {color: gold;
+p, ul {color: silver;
+}
+
+h3 {color: tomato;
 }
