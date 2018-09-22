@@ -13,3 +13,6 @@ p, ul {color: silver;
 
 h3 {color: tomato;
 }
+
+ul {list-style-position: inside;
+}
