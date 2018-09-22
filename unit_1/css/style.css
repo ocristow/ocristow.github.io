@@ -1,9 +1,13 @@
-body {background-color: green;
+body {background-color: black;
 	text-align: center;
 }
 
-h1 {color: gold;
+h1 {color: tomato;
 }
 
 h2 {color: tomato;
+}
+
+p {background-color: white;
+color: gold;
 }
