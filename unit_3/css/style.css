@@ -1,0 +1,23 @@
+body {color: #E8D788;
+	text-align: center;
+	font-family: "Times New Roman" serif;
+}
+h1 {color: #FF5D49;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-weight: 700;
+	font-size: 35px;
+}
+#slogan {text-transform: uppercase;
+	text-decoration: italic;
+	color: #FF5D49;
+}
+nav {color: #FFA96E;
+	text-decoration: normal;
+}
+p {background-image: url(images/beermountains.jpeg);
+}
+li {color: #FF5D49;
+}
+
+
