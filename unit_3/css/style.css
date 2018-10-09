@@ -1,4 +1,6 @@
-body {background-color: #000000;
+body { /*background: url(http://s4301.pcdn.co/wp-content/uploads/2017/07/5-1024x595.jpg);*/
+	/*background-size: cover;*/
+	background-color: #000000;
 	color: #E8D788;
 	text-align: center;
 }
@@ -8,21 +10,30 @@ h1 {color: #FF5D49;
 	text-decoration: underline;
 	font-weight: 700;
 	font-size: 35;
+	font-style: italic;
+}
+
+nav {color: white;
+	text-decoration: normal;
 }
 
 #slogan {text-transform: uppercase;
 	font-style: italic;
-	color: #FF5D49;
+	color: #96E7FF;
 }
 
-nav {color: #FFA96E;
-	text-decoration: normal;
+ul {text-align: center;
+	list-style-position: inside;
 }
 
-p {background-image: url(images/beermountains.jpeg);
-}
-
-li {color: #FF5D49;
+div {text-transform: uppercase;
+	margin-top: 5px;
+	margin-right: 150px;
+	margin-left: 300px;
+	width: 50%;
+	border: 10px solid #FF5D49;
+	padding: 5px;
+	
 }
 
 
