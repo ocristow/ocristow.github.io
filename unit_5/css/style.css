@@ -1,18 +1,64 @@
-header{
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Mali');
+@import url('https://fonts.googleapis.com/css?family=K2D');
+
+body {
+    text-align: center;
 }
+
+header {
+    background-color:#ffed74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 nav {
-	background-color: #e8c66A;
+    background-color: #e8c66A;
+    border: 1px black solid;
+    padding: 20px;
 }
+
 aside {
-	background-color: #ffc675;
+    background-color: #ffc675;
+    border: 1px black solid;
+    padding: 20px;
 }
-article
+
+article {
+    background-color: #e89C6c;
+    border: 1px black solid;
+    padding: 20px;
+}
 
 footer {
-	background-color: #ff957E;
+    background-color: #ff957e;
+    border: 1px black solid;
+    padding: 20px;
 }
-div,section {background-color: #ffe2b8;
+
+div, section {
+    background-color: #ffe2b8;
+    border: 1px black solid;
+    padding: 20px;
 }
+
+ul {
+    list-style-position: inside;
+}
+
+h1 {
+    color: #000000;
+    font-size: 3.5em;
+    text-transform: uppercase;
+    font-family: "Luckiest Guy", cursive;
+    -webkit-text-stroke-width: .5px;
+   -webkit-text-stroke-color: white;
+}
+
+#slogan {
+    text-transform: uppercase;
+    color: black;
+    font-size: 2.5em;
+    font-family: "Mali", cursive;
+}
+
