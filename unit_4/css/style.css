@@ -36,9 +36,13 @@ section{
 }
 
 #shop{
+	background-color: white;
+	color: black;
 }
 
 #events{
+	background-color: black;
+	color: white;
 }
 
 #slogan{
