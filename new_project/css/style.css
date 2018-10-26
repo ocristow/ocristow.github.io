@@ -51,6 +51,11 @@ article {
     padding: 20px;
 }
 
+#articles {
+    width: 100%;
+    display: inline-block;
+}
+
 #mainarticle {
     width: 50%;
     text-align: center;
