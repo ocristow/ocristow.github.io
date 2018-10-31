@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+
+body {
+    font-size:16px;
+    text-align:center;
+    background-color:rgb(27,91,149);
+}
+
+.wrapper {
+    width:1080px;
+    background-color:rgb(221,218,213);
+    margin:0 auto;
+}
+
+header {
+    background-color:rgb(27,91,149);
+}
+
+header img {
+    width:100px;
+    padding-left:20px;
+    float:left;
+}
+
+.headfloat{
+    float:left;
+}
+
+h1 {
+    color:rgb(197,29,63); 
+    font-size:3.5em;
+    text-transform: uppercase;
+    font-family: "Luckiest Guy", cursive;
+    -webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color:rgb(246,151,42);
+    padding-top:30px;
+    padding-right:300px;
+}
+
+h2 {
+    font-size:2.5em;
+    text-transform: uppercase;
+    font-family: "Poor Story", serif;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color:rgb(27,91,149); 
+    color:rgb(221,218,213); 
+    padding-top:10px;
+}
+
+h3 {
+    color:rgb(197,29,63); 
+    font-size:1.6em;
+    text-transform: uppercase;
+    font-family: "Poor Story", serif;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+h4 {
+    color:rgb(197,29,63); 
+    font-size:1em;
+    text-transform: uppercase;
+    font-family: "Poor Story", serif;
+    text-decoration: none;
+    font-weight: 700;
+    margin-bottom:.5em;
+}
+
+#slogan {
+    text-transform: uppercase;
+    color: rgb(221,218,213);
+    border-top: 2px solid rgb(221,218,213);
+    border-right: 2px solid rgb(221,218,213);
+    font-size: 2em;
+    font-family: "Poor Story", serif;
+    margin: 50px .3em .3em .3em;
+}
+
+nav {
+    background-color: rgb(221,218,213);
+    border-bottom: 2px solid rgb(29,91,149);
+}
+
+nav a {
+    margin-top:20px;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color:rgb(27,91,149);
+    font-family: "Poor Story", serif;
+    text-decoration: none;
+    color:rgb(27,91,149);
+}
+
+a:visited {
+    color:rgb(27,91,149);
+}
+
+.mainarticle {
+    width: 48%;
+    text-align: center;
+    float: left;
+    margin-top:3em;
+    margin-bottom:.5em;
+    margin-left:1%;
+}
+
+.mainarticle img{
+    width:75%;
+    padding: 1em;
+}
+
+.mainarticle p{
+    padding: 0em 1em .2em 1em;
+}
+
+.mainarticle a{
+    text-decoration: none;
+}
+
+.secondaryart a{
+    text-decoration: none;
+}
+
+.secondaryartupper {
+    width: 25%;
+    text-align:center;
+    float:right;
+    margin-top:2em;
+}
+
+.secondaryartupper img{
+    width:70%;
+}
+
+.secondaryartlower {
+    width:25%;
+    text-align:center;
+    float:right;
+    margin-top:1.25em;
+    margin-bottom:1.75em;
+}
+
+.secondaryartlower img{
+    width:70%;
+}
+
+aside {
+    padding:2em;
+}
+
+.floatleft{
+    float:left;
+    padding: 0 2em 0 2em;
+    margin: auto 0;
+    text-align: center;
+}
+
+ul {
+    list-style-position:inside;
+}
+
+#podcastbar {
+    background-color:rgb(246,151,42);
+    border-top:1em solid rgb(27,91,149);
+    border-bottom:1em solid rgb(27,91,149);
+    padding-bottom:1em;
+}
+#podcastbar a {
+    width: 20%;
+    float: left;
+}
+
+#podcastbar img {
+    width: 65px;
+    padding-top: 15px;
+}
+
+footer {
+    background-color: rgb(246,151,42);
+    padding-top:2em;
+}
+
+footer a {
+    text-decoration:none;
+    padding:0 .5em;
+}
+
+footer img {
+    width:50px;
+    padding-bottom:1em;
+}
+
+footer p{
+    padding-bottom:1em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    content:" ";
+    display: block;
+    clear: both;
+}
