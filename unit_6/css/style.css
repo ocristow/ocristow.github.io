@@ -8,7 +8,7 @@ body {
 }
 
 .wrapper {
-    width:1080px;
+    width:1200px;
     background-color:rgb(221,218,213);
     margin:0 auto;
 }
@@ -18,13 +18,27 @@ header {
 }
 
 header img {
-    width:100px;
-    padding-left:20px;
+    width:16%;
+    padding-left:4%;
     float:left;
 }
 
 .headfloat{
     float:left;
+}
+
+.secondarydiv h3{
+    color:rgb(197,29,63); 
+    font-size:1em;
+    text-transform: uppercase;
+    font-family: "Poor Story", serif;
+    text-decoration: none;
+    font-weight: 700;
+    margin-bottom:.5em;
+}
+
+.secondarydiv {
+    margin-right:1%;
 }
 
 h1 {
@@ -57,16 +71,6 @@ h3 {
     font-weight: 700;
 }
 
-h4 {
-    color:rgb(197,29,63); 
-    font-size:1em;
-    text-transform: uppercase;
-    font-family: "Poor Story", serif;
-    text-decoration: none;
-    font-weight: 700;
-    margin-bottom:.5em;
-}
-
 #slogan {
     text-transform: uppercase;
     color: rgb(221,218,213);
@@ -94,9 +98,9 @@ nav a {
     color:rgb(27,91,149);
 }
 
-a:visited {
+/*a:visited {
     color:rgb(27,91,149);
-}
+}*/
 
 .mainarticle {
     width: 48%;
@@ -105,6 +109,10 @@ a:visited {
     margin-top:3em;
     margin-bottom:.5em;
     margin-left:1%;
+}
+
+main {
+    background-color: rgb(221,218,213);
 }
 
 .mainarticle img{
