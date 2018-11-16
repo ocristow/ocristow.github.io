@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+@import url('https://fonts.googleapis.com/css?family=Black+And+White+Picture');
+
+body {
+    font-size:20px;
+    width: 100%;
+    text-align:center;
+}
+
+header img{
+    margin-top:1em;
+    width: 30%;
+}
+
+header {
+    background-color:rgb(27,91,149);
+    
+}
+
+nav a {
+    width: 11.66%;
+    padding-left: 2.5%;
+    padding-right:2.5%;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color:rgb(27,91,149);
+    font-family: "Poor Story", serif;
+    text-decoration: none;
+    float: left;
+    background-color:rgb(221,218,213);
+    border-bottom: solid .1em rgb(27,91,149);
+}
+
+.main {
+    background-color: rgb(221,218,213);
+    width:100%;
+}
+
+h2 {
+    font-size:2em;
+    text-transform: uppercase;
+    font-family: "Poor Story", serif; 
+    color:rgb(27,90,149);
+    text-align:center;
+    font-weight: 700;
+}
+
+h3 {
+    color:rgb(27,90,149); 
+    font-size:1em;
+    text-transform: uppercase;
+    font-family: "Poor Story", serif;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.mainarticle {
+    width: 48%;
+    float: left;
+    margin-top:3em;
+    margin-bottom:.5em;
+    margin-left:1%;
+    padding: 2em .5em 1em;
+    /*background-color: green;*/
+}
+
+.mainarticle img{
+    width: 100%;
+    border: .2em solid black;
+}
+
+.mainarticle h3{
+    font-size: 1.6em;
+}
+
+.secondaryart {
+    width:21%;
+    float:left;
+    margin: .5% .5% .5% 1.5%;
+    padding: .75em .25em;
+    /*background-color:orange;*/
+}
+
+.secondaryart img{
+    width:80%;
+    border: .2em solid black;
+}
+
+.secondaryart h3 {
+    font-size: 1.3em;
+    padding: .25em 0;
+}
+
+.secondaryart p{
+    padding-bottom: 1em;
+    font-size: .9em;
+}
+
+#secondaryarticles {
+    float:left;
+}
+
+.podcastbar {
+    padding-bottom:1em;
+    background-color: rgb(221,218,213);
+    border-top: 2px solid rgb(27,91,149);
+}
+
+.podcastbar a {
+    width: 20%;
+    float: left;
+    padding: .5em 0;
+    color: rgb(27,91,149);
+    background-color: rgb(221,218,213);
+}
+
+h4 {
+    border-bottom: 2px solid rgb(27,91,149);
+    background-color: rgb(221, 218, 213);
+    padding-bottom: .5em;
+    font-size: 1.15em;
+    font-family: "Poor Story", serif;
+    text-transform: uppercase;
+}
+
+h4 a {
+    color:rgb(196,29,63);
+    padding: 1em;
+}
+
+.podcastbar img {
+    width: 55%;
+}
+
+footer {
+    background-color: rgb(246,151,42);
+    padding-top:1em;
+}
+
+footer a {
+    text-decoration:none;
+    padding:0 .5em;
+}
+
+footer img {
+    width:3em;
+    padding-bottom:.5em;
+}
+
+footer p{
+    padding-bottom:.5em;
+}
+
+label {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color:rgb(27,91,149);
+    font-family: "Poor Story", serif;
+    text-decoration: none;
+    background-color:rgb(221,218,213);
+    display:none;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    height: 0;
+    font-size: 0;
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+/*@media only screen and (max-width:1600px) {}*/
+
+@media only screen and (max-width:1220px){
+    .mainarticle {
+        float: none;
+        margin: 0 auto;
+        width: auto;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    .secondaryart {
+        width: 40%;
+        float: none;
+        margin-left: auto;
+        display:inline-block;
+        padding: 1.5em 1.5em;
+    }
+}
+
+@media only screen and (max-width:1140px) {
+    .podcastbar a {
+        float: none;
+    }
+   
+   .podcastbar img {
+    width: 15%;
+    padding-top: 1.5em;
+    }    
+
+    .podcastbar p {
+        display: inline-block;
+        margin-top: -2em;
+    }
+
+    .podcastlink {
+        position: relative;
+        top: 2em;
+    }
+}
+
+@media only screen and (max-width:880px) {
+    nav a {
+        float:none;
+        width:auto;
+        display:none;
+    }
+
+    h2 {
+        display: none;
+    }
+
+    .secondaryart h3 {
+        font-size: 1.25em;
+    }
+
+    label {
+        display: block;
+    }
+}
